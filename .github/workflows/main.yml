@@ -1,0 +1,23 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dax Gigandet - Blog</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Official Blog</h1>
+    </header>
+
+    <section class="posts">
+        <article>
+            <h2>Blog Post Title</h2>
+            <p><em>Published: January 1, 2025</em></p>
+            <p>This is your blog content. Add text, links, images, or videos here!</p>
+        </article>
+
+        <!-- More posts here -->
+    </section>
+</body>
+</html>
