@@ -1,0 +1,35 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dax Gigandet | Official Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Dax Gigandet's Official Website</h1>
+    <p>This is where creativity meets passion.</p>
+  </header>
+
+  <section class="content">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Dax Gigandet, a TikTok creator, musician, and activist. Welcome to my official website where you can find all my latest projects and updates.
+    </p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>
+      Feel free to reach out to me through my <a href="https://twitter.com/DaxGigandet" target="_blank">Twitter</a>, <a href="https://www.instagram.com/daxgigandet" target="_blank">Instagram</a>, or <a href="https://www.tiktok.com/@daxgigandet" target="_blank">TikTok</a>.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dax Gigandet. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
