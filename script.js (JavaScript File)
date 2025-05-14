@@ -1,9 +1,0 @@
-// Simple JavaScript for interactive functionality
-document.addEventListener("DOMContentLoaded", function() {
-  const footer = document.querySelector("footer");
-  
-  // Change footer message after 5 seconds
-  setTimeout(function() {
-    footer.innerHTML = "<p>Thanks for visiting Dax Gigandet's Official Site!</p>";
-  }, 5000);
-});

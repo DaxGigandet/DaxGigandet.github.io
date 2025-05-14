@@ -1,0 +1,4 @@
+// Scripts for Sinister Theme Animations
+document.addEventListener("DOMContentLoaded", function() {
+    // Add animations or interactions here if necessary
+});
