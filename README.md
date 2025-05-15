@@ -84,3 +84,4 @@ The **Sinister** theme features dark, bold aesthetics, with skulls, fire, and he
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+ 
