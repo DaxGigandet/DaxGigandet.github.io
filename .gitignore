@@ -1,35 +1,27 @@
-# Node.js dependencies
+# Ignore node_modules (if using npm)
 node_modules/
 
-# Build output
-/dist
-/build
+# Ignore build artifacts
+dist/
+build/
 
-# Log files
-*.log
+# Ignore environment files and secrets
+.env
+.env.local
+.env.*.local
 
-# Dependency directories
-bower_components/
-
-# Temporary files
-*.tmp
-*.swp
-*.bak
-
-# IDE/editor specific files
-.vscode/
-.idea/
-
-# Operating system files
+# System files
 .DS_Store
 Thumbs.db
 
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
 # OS generated files
-Desktop.ini
-
-# Environment files (if any)
-.env
-
-# Yarn and npm lock files (if you’re not using these, you can remove them)
-yarn.lock
-package-lock.json
+*.swp
+*.swo
