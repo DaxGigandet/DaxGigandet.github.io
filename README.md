@@ -1,32 +1,21 @@
 # DaxGigandet.github.io
 
-**Official Website for Dax Gigandet**  
-This repository powers [daxgigandet.github.io](https://daxgigandet.github.io), the personal and professional digital space for content creator, activist, and musician Dax Gigandet.
+Official website repository for Dax Gigandet.
 
 ---
 
-## Overview
+## About
 
-This is a GitHub Pages-powered site built to showcase:
-- Music releases & announcements
-- TikTok & OnlyFans content links
-- Activism & social justice campaigns
-- A personal hub for fans, press, and collaborations
+This repo hosts the source files for Dax Gigandet's official personal website, built with static HTML, CSS, and JavaScript.
 
 ---
 
-## Features
+## Setup & Deployment
 
-- **Automatic deployment** via GitHub Actions
-- **Responsive design** optimized for mobile & desktop
-- **Easy to update** — just push to `main`
-- **Open source** and version-controlled for easy collaboration
+### Local Development
 
----
+1. Clone the repo:
 
-## Setup & Local Development
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/DaxGigandet/DaxGigandet.github.io
-   cd DaxGigandet.github.io
+```bash
+git clone https://github.com/DaxGigandet/DaxGigandet.github.io.git
+cd DaxGigandet.github.io
