@@ -1,29 +1,27 @@
 # DaxGigandet.github.io
 
-**Official Website of Dax Gigandet**
-
-This is the GitHub Pages source for Dax Gigandet's official website — showcasing his music, activism, content, and brand.
-
-## Live Site
-
-**[https://daxgigandet.github.io](https://daxgigandet.github.io)**
-
----
-
-## About
-
-This site serves as the central digital platform for Dax Gigandet — TikTok creator, musician, activist, and voice for unapologetic truth. It features a mobile-optimized, clean design to highlight Dax’s work, videos, links, and social presence.
-
----
+**Dax Gigandet's Official Website**  
+A fully responsive, dark-themed website built for artist and activist Dax Gigandet to showcase his music, presence, and causes.
 
 ## Features
+- Hero section with album promo and tagline
+- Embedded SINISTER album YouTube playlist
+- Social platform links (TikTok, IG, X, OF, YouTube)
+- Activism highlights and Linktree integration
+- Responsive design with modern aesthetic
+- Static deployment via GitHub Pages
 
-- Responsive, mobile-first layout
-- Minimalist, bold design theme
-- Integration-ready with social platforms
-- Fast, static front-end
-- GitHub Pages auto-deployment
+## Live
+https://daxgigandet.github.io
 
----
-
-## File & Folder Structure
+## Folder Structure
+```
+DaxGigandet.github.io/
+├── index.html
+├── style.css
+├── main.js
+├── assets/
+│   ├── images/
+│   └── fonts/
+└── README.md
+```
