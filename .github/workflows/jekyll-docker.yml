@@ -1,0 +1,29 @@
+# .github/workflows/jekyll.yml
+name: Build and Deploy Jekyll
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  jekyll:
+    runs-on: ubuntu-latest
+    container:
+      image: jekyll/builder:latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build site
+        run: JEKYLL_ENV=production bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
