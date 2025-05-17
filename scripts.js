@@ -1,3 +1,5 @@
+// GitHub Copilot: Debug all errors, optimize JavaScript, and finalize interactive elements
+
 // scripts.js
 
 // Simple scroll animation for sections
