@@ -1,27 +1,23 @@
 # .github/workflows/jekyll.yml
-name: Build and Deploy Jekyll
+name: Jekyll site CI
 
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 jobs:
-  jekyll:
+  build:
     runs-on: ubuntu-latest
-    container:
-      image: jekyll/builder:latest
-
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-
-      - name: Install dependencies
-        run: bundle install
-
-      - name: Build site
-        run: JEKYLL_ENV=production bundle exec jekyll build
-
+      - uses: actions/checkout@v4
+      - name: Build the site in the jekyll/builder container
+        run: |
+          docker run \
+            -v ${{ github.workspace }}:/srv/jekyll \
+            -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+            jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
